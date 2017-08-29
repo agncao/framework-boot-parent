@@ -33,8 +33,8 @@ public class SwaggerAutoConfiguration {
     /**
      * 从哪个包开始扫描
      */
-    @Value("${swagger.basePackage:cn.caojm}")
-    private String SWAGGER_SCAN_BASE_PACKAGE = "cn.caojm";
+    @Value("${swagger.basePackage}")
+    private String SWAGGER_SCAN_BASE_PACKAGE;
     /**
      * API版本
      */
