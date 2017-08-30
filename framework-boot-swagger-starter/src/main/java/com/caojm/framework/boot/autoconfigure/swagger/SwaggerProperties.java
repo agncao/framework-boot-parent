@@ -1,7 +1,6 @@
 package com.caojm.framework.boot.autoconfigure.swagger;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
 
 /**
  * Created by Administrator on 2017/8/29.
